@@ -81,7 +81,7 @@ DDRNet/
 ```
 ## Pretrained Weights of Backbones
 
-[Baidu Disk](https://pan.baidu.com/s/1kfW8vvAhCvbGK81vQQczoA) : 0000
+[Baidu Disk](https://pan.baidu.com/s/1kfW8vvAhCvbGK81vQQczoA) : extraction code is：0000
 
 
 ## Training
