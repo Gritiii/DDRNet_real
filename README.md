@@ -1,4 +1,3 @@
-# DDRNet_real
 # DDRNet
 
 ## Installation
@@ -25,7 +24,7 @@ Vaihingen: https://pan.baidu.com/s/1wVgiNohIopu0evn871PDqQ
 
 LoveDA: https://pan.baidu.com/s/1DyrDvJmKtf_jJGqCCJ3dSA
 
-Potsdam: https://pan.baidu.com/s/1WxNuyERdCLaE1zqfnIlPtw
+Potsdam: https://pan.baidu.com/s/1ZKBBL5k_3Po1xHFogOqaXQ 
 
 
 After downloading and extracting, place the datasets in the `./Datasets` directory.
@@ -42,11 +41,16 @@ DDRNet/
 ├── config
 │   ├── loveda
 │   │   ├── ddrnet.py
+│   ├── datasets
+│   ├── losses
+│   ├── models
 │   ├── vaihingen
 │   │   ├── ddrnet.py
+│   ├── datasets
+│   ├── losses
+│   ├── models
 │   ├── potsdam
 │   │   ├── ddrnet.py
-├── ddrnet
 │   ├── datasets
 │   ├── losses
 │   ├── models
@@ -81,7 +85,7 @@ DDRNet/
 ```
 ## Pretrained Weights of Backbones
 
-[Baidu Disk](https://pan.baidu.com/s/1kfW8vvAhCvbGK81vQQczoA) : extraction code is：0000
+[Baidu Disk](https://pan.baidu.com/s/1kfW8vvAhCvbGK81vQQczoA) : 0000
 
 
 ## Training
@@ -122,3 +126,4 @@ python inference_huge_image.py \
 -o fig_results/vaihingen/ddrnet_huge \
 -t 'd4' -ph 512 -pw 512 -b 2 -d "pv"
 ```
+
